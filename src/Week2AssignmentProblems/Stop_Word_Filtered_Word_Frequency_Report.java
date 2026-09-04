@@ -1,4 +1,4 @@
-package Week2Problems;
+package Week2AssignmentProblems;
 
 import java.util.*;
 

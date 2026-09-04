@@ -1,4 +1,4 @@
-package Week2Problems;
+package Week2AssignmentProblems;
 
 public class ATM_PIN_Length_Validator {
 

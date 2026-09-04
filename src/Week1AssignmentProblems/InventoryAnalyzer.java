@@ -1,3 +1,5 @@
+package Week1AssignmentProblems;
+
 class InventoryAnalyzer {
     static void analyzeInventory(int[] sectionA, int[] sectionB) {
         int totalA = 0;

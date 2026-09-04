@@ -1,3 +1,5 @@
+package Week1AssignmentProblems;
+
 class MovieReview {
     static void classifyWordLengths(String review) {
         String[] words = review.split(" ");

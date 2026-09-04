@@ -1,4 +1,4 @@
-package Week2Problems;
+package Week2AssignmentProblems;
 
 public class Product_Inventory_CSV_Parser {
 

@@ -1,4 +1,4 @@
-package Week2Problems;
+package Week2AssignmentProblems;
 
 public class Library_ISBN_Normalizer_Validator {
 

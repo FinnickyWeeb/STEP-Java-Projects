@@ -1,3 +1,5 @@
+package Week1AssignmentProblems;
+
 class checkDupeSeats {
     static void checkDuplicateSeats(int[] seatNumbers) {
         boolean found = false;

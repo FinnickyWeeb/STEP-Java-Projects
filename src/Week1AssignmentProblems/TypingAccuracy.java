@@ -1,3 +1,5 @@
+package Week1AssignmentProblems;
+
 class TypingAccuracy {
     static void checkTypingAccuracy(String original, String typed) {
         int matched = 0;
