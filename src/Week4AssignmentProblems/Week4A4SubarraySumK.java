@@ -1,0 +1,43 @@
+package Week4AssignmentProblems;
+
+import java.util.*;
+
+public class Week4A4SubarraySumK {
+
+    static int subarraySum(int[] nums, int k) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        map.put(0, 1);
+
+        int currentSum = 0;
+        int count = 0;
+
+        for (int num : nums) {
+            currentSum += num;
+
+            if (map.containsKey(currentSum - k))
+                count += map.get(currentSum - k);
+
+            map.put(currentSum, map.getOrDefault(currentSum, 0) + 1);
+        }
+
+        return count;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter array size: ");
+        int n = sc.nextInt();
+
+        int[] nums = new int[n];
+
+        for (int i = 0; i < n; i++)
+            nums[i] = sc.nextInt();
+
+        System.out.print("Enter k: ");
+        int k = sc.nextInt();
+
+        System.out.println("Count: " + subarraySum(nums, k));
+    }
+}
