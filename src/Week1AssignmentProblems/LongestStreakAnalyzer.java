@@ -1,3 +1,5 @@
+package Week1AssignmentProblems;
+
 class LongestStreakAnalyzer {
     static void findLongestStreak(String signalLog) {
         int count = 1;
